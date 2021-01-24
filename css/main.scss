@@ -1,6 +1,7 @@
 @import "variables";
 @import "resets";
 @import "home";
+@import "about";
 @import "menu";
 
 body {
@@ -55,5 +56,10 @@ footer {
   bottom: 0.5rem;
   right: 1rem;
   text-align: right;
+  padding: 1rem;
   color: set-text-color($primary-color);
+}
+
+.text-secondary {
+  color: $secondary-color;
 }
